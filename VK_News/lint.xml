@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/hakami1024/vk_news/SingleNewsActivity.java" />
+        <ignore path="src/com/hakami1024/vk_news/VKPostViewer.java" />
+    </issue>
+</lint>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id = "@+id/news_head_layout"
+    android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+      <ImageView
+		android:id="@+id/news_source_image"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginTop="15dp"
+		android:src="@drawable/abc_ab_share_pack_holo_light" />
+
+	  <TextView
+	  	android:id="@+id/news_source_text"
+	  	android:layout_width="fill_parent"
+	  	android:layout_height="wrap_content"
+	  	android:layout_alignTop="@id/news_source_image"
+	  	android:layout_marginLeft="15dp"
+	  	android:layout_toRightOf="@id/news_source_image"/>
+	
+	   <TextView
+	   	android:id="@+id/news_time"
+	   	android:layout_width="fill_parent"
+	   	android:layout_height="wrap_content"
+	   	android:layout_alignLeft="@id/news_source_text"
+	   	android:layout_below="@id/news_source_text"/>
+      
+  </RelativeLayout>

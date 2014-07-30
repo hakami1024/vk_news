@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="geoLayout" type="id"/>
+    <item name="audioAttach" type="id"/>
+    <item name="imageAttach" type="id"/>
+    <item name="videoAttach" type="id"/>
+    <item name="debugAttach" type="id"/>
+    <item name="sourceImageAttach" type="id"/>
+    <item name="sourceNameAttach" type="id"/>
+    <item name="postTimeAttach" type="id"/>
+    <item name="link_image" type="id"></item>
+    <item name="link_text" type="id"></item>
+    <item name="link_url" type="id"></item>
+    <item name="key_gridview" type="id"></item>
+</resources>

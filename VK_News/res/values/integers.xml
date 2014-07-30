@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    	<integer name="test_padding_v">10</integer>
+		<integer name="test_padding_h">10</integer>
+</resources>

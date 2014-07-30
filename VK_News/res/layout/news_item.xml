@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:t="http://schemas.android.com/apk/res/com.hakami1024.vk_news"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <include layout="@layout/news_head" />
+
+    <TextView
+        android:id="@+id/news_body_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:autoLink="web" />
+
+    <LinearLayout
+        android:id="@+id/news_reposts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <com.hakami1024.utils.FlowLayout
+        android:id="@+id/news_images"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        t:paddingH="@integer/test_padding_h"
+        t:paddingV="@integer/test_padding_v" />
+    
+    <TextView 
+        android:id="@+id/news_more_images"
+        android:text="@string/news_more_images_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/news_ref_color"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/news_attachments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/news_like_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:focusable="false" />
+
+        <Button
+            android:id="@+id/news_reposted_button"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:enabled="false"
+            android:focusable="false" />
+    </LinearLayout>
+
+</LinearLayout>
